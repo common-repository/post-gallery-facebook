@@ -1,0 +1,18 @@
+/**
+ * Default CSS
+ */
+div#pdfbpg-gallery .pdfb-tile {
+    width: 25%;
+    display: inline-block;
+    overflow: hidden;
+}
+div#pdfbpg-gallery .pdfb-tile img{
+    width: 100%;
+    max-width: 100%;
+    height:250px;
+    object-fit:contain;
+    transition: 0.5s all;
+}
+div#pdfbpg-gallery .pdfb-tile:hover img{
+    transform: scale(1.1,1.1);
+}
